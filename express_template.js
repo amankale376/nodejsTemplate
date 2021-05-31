@@ -32,5 +32,12 @@ app.listen(process.env.PORT || 300, function(){
 
     // npm i express body-parser ejs nodemon lodash mongoose-encryption dotenv
     //lodash helps to convert string to lowercase and replace - with space
-    // mongoose encytion uses bcrypt 
+    // mongoose-encytion uses AES
     //dotenv is used to make evironment variables to keep safe sensitve data like keys
+    // or we can use md5 package for normal hashing 
+    //bcryt can also be used
+    // some packages we can use for authentication, cookies and sessions are as follows
+    // - passport 
+    // - passport-local
+    // - passport-local-mongoose
+    // - express-session  //make sure not to use sessions, it should be singular
